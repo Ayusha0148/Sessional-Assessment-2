@@ -8,7 +8,7 @@ body{
 }
 #body-header img{
     height: 100vh;
-    width: 100vh;
+    width: 100%;
 }
 #navbar{
     width: 100%;
@@ -67,32 +67,36 @@ nav ul li a:hover{
         display: block;
 
     }
+    #nav-bar{
+        overflow: hidden;
+        transition: 0.5s;
+
+    }
 }
 section{
     height: 75vh;
     width: 100%;
-    border: 5px solid black;
     display: flex;
 
 }
 #about{
-    height: 70vh;
-    width: 100%;
-    border: 5px solid black;
+    height: 40vw;
     position: relative;
     background: linear-gradient( #2b5876 ,#4e4376);
 }
 #bio-text{
     position: absolute;
+    padding: 5px;
     height: 80%;
     width: 60%;
     top: 15%;
     bottom: 0;
     margin-left: 10%;
     color: white;
-    border: 5px solid black;
+    text-align: center;
     
 }
+
 #my-pic{
     position: absolute;
     height: 84%;
@@ -106,15 +110,9 @@ section{
     background-position: center;
     box-shadow: #d7d2cc;
 }
-#bio text p{
+#responsive{
     text-align: justify;
-    font-size: 9vw;
-}
-@media only screen and (max-width:804px){
-    #bio text p{
-        text-align: justify;
-        font-size: 5vw;
-    }
+    font-size: 2.7vw;
 }
 .logo{
     position: absolute;
@@ -131,7 +129,6 @@ section{
 #contact{
     position: relative;
     height: 90vh;
-    width: 100%;
     display: flex;
     background: linear-gradient( #bdc3c7 , #2c3e50);
     
@@ -189,4 +186,62 @@ section{
 #div-heading{
     position: absolute;
     left: 20%;
+}
+footer{
+    padding: 40px 0;
+    background-color:#999999 ;
+}
+.social{
+    text-align: center;
+    padding-bottom: 25px;
+    color: white;
+}
+.social a{
+    font-size: 24 px;
+    color: inherit;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    padding-top: 3px;
+    margin: o 8px;
+    opacity: 0.75;
+    
+}
+.social a:hover{
+    opacity: 0.9;
+
+}
+footer ul{
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+
+}
+footer ul a{
+    color:inherit;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+footer ul li{
+    display: inline-block;
+    padding: 0 15px;
+}
+footer ul li a:hover{
+    opacity: 1;
+}
+footer .copyright{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: black;
 }
