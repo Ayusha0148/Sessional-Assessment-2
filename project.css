@@ -72,6 +72,7 @@ section{
     height: 75vh;
     width: 100%;
     border: 5px solid black;
+    display: flex;
 
 }
 #about{
@@ -79,16 +80,106 @@ section{
     width: 100%;
     border: 5px solid black;
     position: relative;
-    background-color: lightpink;
+    background: linear-gradient( #2b5876 ,#4e4376);
 }
 #bio-text{
     position: absolute;
-    height: 70%;
+    height: 80%;
     width: 60%;
+    top: 15%;
+    bottom: 0;
+    margin-left: 10%;
+    color: white;
+    border: 5px solid black;
+    
+}
+#my-pic{
+    position: absolute;
+    height: 84%;
+    width: 20%;
     top: 10%;
     bottom: 0;
     margin: auto;
-    margin-left: 35%;
-    font-size: 2.5rem;
-    color: #808080;
+    margin-left: 74%;
+    background-image: url("pic1.jpeg");
+    background-size: cover;
+    background-position: center;
+    box-shadow: #d7d2cc;
+}
+#bio text p{
+    text-align: justify;
+    font-size: 9vw;
+}
+@media only screen and (max-width:804px){
+    #bio text p{
+        text-align: justify;
+        font-size: 5vw;
+    }
+}
+.logo{
+    position: absolute;
+    height: 10%;
+    width: 20%;
+    left: 0;
+    right: 0;
+    top: 2%;
+    margin: auto;
+    background-image: url("about1.png");
+    background-size:cover ;
+    background-position: center;
+}
+#contact{
+    position: relative;
+    height: 90vh;
+    width: 100%;
+    border: 5px solid red;
+    display: flex;
+}
+#details{
+    position: absolute;
+    border: 5px solid black;
+    height: 80%;
+    width: 39%;
+    margin: auto;
+    left: 10%;
+    top: 10%;
+    bottom: 10%;
+    
+    
+
+    
+}
+#contact-us{
+    position: absolute;
+    border: 5px solid black;
+    height: 80%;
+    width: 39%;
+    right: 10%;
+    top: 10%;
+    bottom: 10%;
+    
+}
+#form{
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 40%;
+
+}
+#para{
+    position: absolute;
+    font-size: medium;
+    margin-left: 52.5%;
+    margin-top: 10%;
+
+}
+.div-heading{
+    position: absolute;
+    font-size: larger;
+    margin-left: 52%;
+    margin-top: 7%;
+}
+#list{
+    position: absolute;
+    font-size: medium;
+    
 }
