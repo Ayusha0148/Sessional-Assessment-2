@@ -286,13 +286,11 @@ footer .copyright{
     overflow: scroll;
     background-color: lightpink;
 }
+#data{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
 #list1{
-    border: 5px solid black;
-    font-size: 25px;
-    font-family: sans-serif;
-    color: black;
-    margin-left: 20px;
-    margin-top: auto;
-    text-align: center;
-    list-style-type: none;
+    font-size: 0.9vw;
 }
