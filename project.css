@@ -279,8 +279,11 @@ footer .copyright{
     color: #ffff00e0;
 }
 #API{
-    position: relative;
-    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    overflow: scroll;
     background-color: lightpink;
 }
 #list1{
