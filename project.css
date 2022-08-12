@@ -135,7 +135,7 @@ section{
 }
 #details{
     position: absolute;
-    height: 80%;
+    height: 35vw;
     width: 40%;
     margin: auto;
     left: 15%;
@@ -146,6 +146,9 @@ section{
     
 
     
+}
+#details i{
+    margin-right: 10px;
 }
 #contact-us{
     position: absolute;
@@ -160,32 +163,44 @@ section{
 }
 #form{
     position: absolute;
-    margin-left: 5%;
-    margin-top: 26%;
+    bottom: 12%;
+    left: 5%;
 
 }
 #para{
     position: absolute;
-    font-size: medium;
-    margin-left: 52.5%;
-    margin-top: 15%;
+    padding: 5px;
+    font-size: 1.3vw;
+    text-align: justify;
+    margin-top: 13%;
 
 }
 .div-heading{
     position: absolute;
-    font-size: larger;
-    margin-left: 52%;
-    margin-top: 12%;
+    font-size: 3vw;
+    left: 28%;
+    margin: auto;
+    margin-top: 5%;
 }
 #list{
     position: absolute;
-    font-size: 20px;
+    font-size: 1.5vw;
     margin-top: 19%;
-    margin-left: 20%;
+    margin-left: 5%;
+    padding: 3vw;
 }
 #div-heading{
     position: absolute;
     left: 20%;
+    font-size: 3vw;
+    
+}
+.topinput{
+    width: 8vw;
+}
+#message{
+    width: 20vw;
+    margin-top: 15px;
 }
 footer{
     padding: 40px 0;
@@ -244,4 +259,22 @@ footer .copyright{
     text-align: center;
     font-size: 13px;
     color: black;
+}
+#nightmode{
+    position: absolute;
+    height: 98%;
+    width: 4%;
+    top: 0;
+    bottom: 0;
+    left: 2%;
+    margin: auto;
+}
+#nightmode i{
+    margin-top: -2px;
+    margin-left: 6px;
+    font-size: 40px;
+
+}
+.baby{
+    color: #ffff00e0;
 }
